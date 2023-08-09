@@ -33,8 +33,8 @@ void comparar_palabras(t_cadena palabra_1, t_cadena palabra_2) {
 }
 
 int main() {
-    t_cadena palabra_1 = "alfabeto"; // Aquí hay un error, debemos usar arreglos de caracteres para asignar cadenas.
-    t_cadena palabra_2 = "papalota"; // Aquí hay un error, debemos usar arreglos de caracteres para asignar cadenas.
+    t_cadena palabra_1 = "alfabeto"; 
+    t_cadena palabra_2 = "papalota"; 
     comparar_palabras(palabra_1, palabra_2);
     return 0;
 }
